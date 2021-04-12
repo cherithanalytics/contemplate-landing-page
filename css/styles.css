@@ -47,7 +47,7 @@ main {
 }
 
 .box {
-    flex: 1 1 360px;
+    flex: 1 1 300px;
     max-width: 400px;
     padding: 20px;
 }
@@ -70,13 +70,20 @@ p {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
+    font-size: 6vw;
     margin: 0.33em 0 0.33em 0;
     color: var(--textColor);
 }
 
-/* @media screen and (min-width: 600px) {
-    .box {
-        max-width: 400px;
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 4.5vw;
     }
-} */
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 3em;
+    }
+}
