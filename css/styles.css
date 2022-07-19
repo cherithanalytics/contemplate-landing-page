@@ -1,6 +1,7 @@
 :root {
     --textColor: #030931;
     --backgroundColor: #F5EFEA;
+    --appColor: #3EAAFC;
 }
 
 * {
@@ -50,6 +51,16 @@ main {
     flex: 1 1 292px;
     max-width: 400px;
     padding: 20px;
+}
+
+.button-border {
+    border: 2px solid var(--textColor);
+    border-radius: 4px;
+}
+
+.new-paragraph {
+    padding-top: 16px;
+    color: var(--appColor);
 }
 
 header {
